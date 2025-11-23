@@ -19,6 +19,6 @@ variable "account_tier" {
 
 variable "account_replication_type" {
   type        = string
-  description = "The storage account replication type: LRS, GRS, RAGRS, ZRS, GZRS, RAGRS"
+  description = "The storage accounts replication type: LRS, GRS, RAGRS, ZRS, GZRS, RAGRS"
   default     = "GRS"
 }
